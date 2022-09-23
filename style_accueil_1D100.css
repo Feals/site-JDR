@@ -1,0 +1,268 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'Roblox';
+    src: url('polices/Roblox Font Black.otf') format('OpenType Font'),
+        url('polices/Roblox Font Black.ttf') format('truetype Font');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('polices/Oswald-Regular.ttf') format('truetype Font');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+body {
+    font-family: 'Roblox', Arial, sans-serif;
+    font-weight: normal;
+
+
+}
+
+#bloc_page {
+    width: 1920px;
+    margin: auto;
+
+
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#inclineDroite {
+    display: flex;
+    flex-direction: row;
+}
+
+#titre_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #006685;
+    height: 200px;
+    min-width: 800px;
+
+}
+
+#shadow {
+    width: 50px;
+    height: 200px;
+    background-color: #a9f1ee;
+}
+
+#triangleDroite {
+    width: 0;
+    height: 0;
+    border-top: 200px solid #a9f1ee;
+    border-right: 150px solid transparent;
+
+}
+
+#triangleDroite2 {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 200px solid #006685;
+    border-right: 150px solid transparent;
+    margin-left: -200px;
+
+
+}
+
+#connexion {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+
+}
+
+#triangleGauche {
+    width: 0;
+    height: 0;
+    border-bottom: 24px solid #a9f1ee;
+    border-left: 20px solid transparent;
+    margin-top: 16px;
+
+}
+
+#logo {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo img {
+    width: 59px;
+    height: 60px;
+    padding-right: 20px;
+}
+
+#partie_droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+/* INSCRIPTION / CONNEXION */
+nav ul {
+    background-color: #a9f1ee;
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+    padding-right: 20px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: #006685;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+h1 {
+    color: #fdf8e5;
+}
+
+h2 {
+    color: #fdf8e5;
+}
+
+section h2 {
+    color: #d0551c;
+    background-color: #a9f1ee;
+}
+
+h3 {
+    color: #fdf8e5;
+}
+
+/* Navigation */
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    background-color: #d0551c;
+
+}
+
+a {
+    color: #fdf8e5;
+    text-decoration: none;
+}
+
+p {
+    color: #fdf8e5;
+    font-style: 'Oswald', Arial, sans-serif;
+    font-weight: normal;
+
+}
+
+section p {
+    color: black;
+
+}
+
+
+/* Bannière */
+
+#banniere_image {
+    margin-top: 15px;
+    height: 700px;
+    border-radius: 5px;
+    background: url('images/banière.png') no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+/* Section */
+#fond {
+    background: url('images/fond.png');
+
+
+}
+
+footer {
+    background-color: #d0551c;
+
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    color: #fdf8e5;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#adresse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mentions_legal {
+    text-align: center;
+}
+
+/* Bouton */
+
+#inscription_table {
+    background-color: #d0551c;
+    color: #fdf8e5;
+    border: none;
+    padding: 20px;
+}
+
+#inscription {
+    background-color: #006685;
+    color: #fdf8e5;
+    border: none;
+    margin-left: 300px;
+    margin-top: 10px;
+
+}
+
+
+#recherche {
+    background-color: #fdf8e5;
+    border-color: #d0551c;
+}
+
+#GO {
+    background-color: #d0551c;
+    color: #fdf8e5;
+
+}
+
+#onglet {
+    margin-top: 10px;
+}
